@@ -1,12 +1,9 @@
 import './App.css';
+import Board from './components/Board';
 
 function App() {
 	return (
-		<div>
-			<button className='square'>X</button>
-			<button className='square'>X</button>
-			<button className='square'>X</button>			
-		</div>
+		<Board />
 	);
 }
 
